@@ -1,0 +1,367 @@
+body{
+    background-color: #323232;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-brand{
+    padding: 0px;
+}
+
+.navbar{
+    text-align: center;
+}
+
+.content{
+    padding: 50px;
+}
+
+.pizza{
+    width: 190px;
+    border-radius: 10px;
+}
+
+.section{
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    box-shadow: 3px 3px 6px rgba(255, 255, 255, 0.566);
+}
+
+.msg{
+    color:#ffca2e;
+}
+
+.rowfooter{
+    background-color: #212529;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.nomecard{
+    color: #ffca2e;
+}
+
+#nome{
+    color: #ffca2e;
+    padding: 3px;
+}
+
+.titulos{
+    color: black;
+    border-radius: 10px;
+    background-color: #ffca2e;
+}
+
+.fotos{
+    width: 400px;
+}
+
+#link{
+    color: #ffca2e;
+    text-decoration:none;
+}
+
+#linkport{
+    color: #474747;
+}
+
+.preco{
+    color: #ffca2e;
+}
+
+.sobre{
+    color: #323232;
+}
+
+.logout{
+    color: #323232;
+    background: transparent;
+    border: 0.5px solid transparent;
+}
+
+#nomesobre{
+    color: #ffca2e;
+    padding: 10px;
+}
+
+.listas{
+    list-style-type: none;
+}
+
+.listasobre{
+    margin-right: 30px;
+}
+
+.secbeb{
+    justify-content: left;
+    text-align: left;
+}
+
+.descrição{
+    color: whitesmoke;
+    font-style: italic;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 17px;
+}
+
+.space{
+    height: 50px;
+}
+
+.bnt_edit{
+    margin: 2px;
+}
+
+.secresul{
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+
+hr{
+    background-color: white;
+}
+
+.modal{
+    background: transparent;
+}
+
+.modal-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#quantidade_car{
+    width: 40px;
+}
+
+#preco_unitario_car{
+    width: 80px;
+}
+
+.inputCar{
+    background: transparent;
+    border: 2px solid #ffca2e;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    color: #ffca2e;
+}
+
+.editlink{
+    color:rgba(255, 255, 255, 0.566);
+}
+
+.botao{
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 3px;
+    width: 50%;
+    background-color: white;
+    border: white solid 2px;
+    border-radius: 5px;
+    transition: all 300ms ease-in-out;
+}
+
+.botao:hover{
+    background-color: #ffca2e;
+    color: white;
+    border: #ffca2e solid 2px;
+}
+
+.submit{
+    width: 80px;
+}
+
+.maior{
+    width: 50%;
+}
+
+@media only screen and (max-width: 600px){
+    .botao{
+        display: inline-block;
+        padding: 5px 10px;
+        margin: 3px;
+        width: 40%;
+        transition: all 300ms ease-in-out;
+    }
+    
+    .botao:hover{
+        background-color: #ffca2e;
+        color: white;
+        border: #ffca2e solid 2px;
+    }
+    
+    .submit{
+        width: 80px;
+    }
+
+    .hr{
+        margin: 10px 0;
+        display: block;
+    }
+
+    .rh{
+        display: none;
+    }
+
+    #nome{
+        color: #ffca2e;
+        padding: 3px;
+        font-size: 25px;
+    }
+
+    .botoesnav{
+        justify-content: center;
+    }
+    
+    .maior{
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .hr {
+      display: none; 
+    }
+
+    .rh{
+        margin: 10px 0;
+        display: block;
+    }
+
+    .botoesnav{
+        justify-content: end;
+    }
+  }
+  
+.alert-temporario {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    background-color: #ffc107;
+    color: #212529;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+}
+
+.ulPesq{
+    list-style-type: none;
+}
+
+.botao-vendas{
+    color: white;
+    padding: 3px;
+    margin: 3px;
+    background: transparent;
+    border: #ffca2e solid 3px;
+    border-radius: 5px;
+    width: 250px;
+    transition: background-color 0.3s ease;
+}
+
+.botao-vendas:hover{
+    color: white;
+     background: #ffca2e;
+}
+
+#tabela-itens th,td{
+    border: white solid 1px;
+}
+
+#tabela-itens{
+    margin: 10px;
+    margin-bottom: 30px;
+    padding: 8px;
+}
+
+tabela-result{
+    margin: 10px;
+}
+
+#tabela-result th,td{
+    border: white solid 1px;
+    padding: 3px;
+}
+
+#resulRed{
+    color: rgb(255, 50, 50);
+}
+
+#resultGreen{
+    color: rgb(14, 233, 14);
+}
+
+#resultadoTable{
+    color: white;
+}
+
+#tdBebidas{
+    border-color: transparent;
+}
+
+.selects{
+    background: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 37px;
+    transition: all 300ms ease-in-out;
+}
+
+.selects:hover{
+    background-color: #ffca2e;
+    border: 1px solid #ffca2e;
+    color: white;
+}
+
+.selects:focus{
+    background-color: #ffca2e;
+    border: 1px solid #ffca2e;
+    color: white;
+}
+
+.container-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-form input{
+    margin: 5px;
+    width: 300px;
+    height: 37px;
+    border-radius: 5px;
+    border: 1px solid white;
+    outline: none;
+    transition: all 300ms ease-in-out;
+}
+
+.container-form input:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.container-form input:focus{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+option{
+    background-color: white;
+    color: black;
+}
